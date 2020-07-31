@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Lading Page</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="src/logo.png" alt="icono empresa" class="" style="width: 30%">Titulo
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Acerca de<span class="sr-only">
+                            (current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /BARRA DE NAVEGACION -->
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5 ">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-6 justify-content-center align-self-center">
+                        <h1>Tratamiento de Ortodoncia</h1>
+                        <ul>
+                            <li>Instalación completamente GRATIS <span class="aclarate">(Costo normal - 2.500.000)</span></li>
+                            <li>Mantenimiento Incluido Gratis <span class="aclarate">(Costo Normal - 280.000)</span></li>
+                            <li> Descuento en todos los tratamientos generales hasta un 80%</li>
+                            <li> Mas de 30 consultorios a nivel país</li>
+                            <li> Descuento en mas de 100 comercios adheridos</li>
+                            <li>Cuota Mensual -<b> 195.000gs </b></li>
+                        </ul>
+                        <button type="button" class="btn btn-outline-info btn-lg text-white" data-toggle="modal" data-target="#Modal" data-whatever="@mdo">Solicitar un turno</button>
+
+                        <!-- Modal Form -->
+                        <div class="modal animated fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-dark">
+                                        <h5 class="modal-title " id="ModalLabel">Rellena el formulario para solicitar un turno</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+
+                                            <div class="form-group">
+                                                <label for="FormControlInput1" class="text-muted">Nombre</label>
+                                                <input type="text" class="form-control" id="name" placeholder="Nombre y apellido">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="FormControlInput1" class="text-muted">Correo Electronico</label>
+                                                <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="FormControlInput1" class="text-muted">Numero de telefono</label>
+                                                <input type="text" class="form-control" id="phoneNumber" placeholder="Solo numeros">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                        <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Modal Form -->
+
+                    </div>
+                    <div class="col-md-6 my-sm-5">
+                        <img src="src/brackets.jpg" alt="Imagen del producto" style="border-radius: 20px" class="img-fluid d-none d-sm-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- FOOTER -->
+    <footer class="page-footer py-sm-3 font-small bg-info pt-md-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Contactos</h5>
+                    <p>Para mas información puedes contactarte con nosotros en whatsapp</p>
+                    <a href="" class="btn btn-small text-dark text-decoration-none">
+                        <h2>whatsapp</h2>
+                    </a>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <div class="d-sm-block col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Tratamientos</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Redes sociales</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark nav-item">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-0">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> </a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- /FOOTER -->
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+
+</body>
+
+</html>
